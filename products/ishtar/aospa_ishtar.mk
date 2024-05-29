@@ -7,11 +7,10 @@
 ifeq (aospa_ishtar,$(TARGET_PRODUCT))
 
 # Inherit from those products. Most specific first.
-$(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit_only.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from the device configuration.
-$(call inherit-product, device/xiaomi/ishtar/device.mk)
+$(call inherit-product, device/xiaomi/ishtar/kalama.mk)
 
 # Inherit from the AOSPA configuration.
 $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
@@ -19,7 +18,7 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ishtar
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := ishtar
+PRODUCT_MODEL := Xiaomi 13 Ultra
 PRODUCT_NAME := aospa_ishtar
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
