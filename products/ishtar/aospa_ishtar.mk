@@ -18,7 +18,7 @@ $(call inherit-product, vendor/aospa/target/product/aospa-target.mk)
 PRODUCT_BRAND := Xiaomi
 PRODUCT_DEVICE := ishtar
 PRODUCT_MANUFACTURER := Xiaomi
-PRODUCT_MODEL := Xiaomi 13 Ultra
+PRODUCT_MODEL := 2304FPN6DC
 PRODUCT_NAME := aospa_ishtar
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
